@@ -1,0 +1,13 @@
+body{
+    background-color: beige;
+}
+#num1{
+    text-align: center;
+    padding:5%;
+    text-shadow: chartreuse;
+    font-size: 100px;
+}
+#num2{
+    text-align: center;
+    color:darkgoldenrod;
+}
