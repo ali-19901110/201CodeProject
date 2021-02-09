@@ -6,7 +6,7 @@ console.log(r0);
 if(r0.toLowerCase()==='yes'||r0.toLowerCase()=='y'){
     alert("You'r same me");
     yourGrad++;
-}else if(r0.toLowerCase()==='no'||r0.toLowerCase()==='y')
+}else if(r0.toLowerCase()==='no'||r0.toLowerCase()==='n')
 {
   alert('you are do not same me');
 }else{
@@ -19,7 +19,7 @@ if(r0.toLowerCase()==='yes'||r0.toLowerCase()=='y'){
 if(r1.toLowerCase()==='yes'||r1.toLowerCase()=='y'){
     alert("You'r same me");
     yourGrad++;
-}else if(r1.toLowerCase()==='no'||r1.toLowerCase()==='y')
+}else if(r1.toLowerCase()==='no'||r1.toLowerCase()==='n')
 {
     alert('you are do not same me');
 }else{
@@ -31,7 +31,7 @@ if(r1.toLowerCase()==='yes'||r1.toLowerCase()=='y'){
 if(r2.toLowerCase()==='yes'||r2.toLowerCase()=='y'){
     alert("You'r same me");
     yourGrad++;
-}else if(r2.toLowerCase()==='no'||r2.toLowerCase()==='y')
+}else if(r2.toLowerCase()==='no'||r2.toLowerCase()==='n')
 {
     alert('you are do not same me');
 }else{
@@ -43,7 +43,7 @@ console.log(r3);
 if(r3.toLowerCase()==='yes'||r3.toLowerCase()=='y'){
     alert("You'r same me");
     yourGrad++;
-}else if(r3.toLowerCase()==='no'||r3.toLowerCase()==='y')
+}else if(r3.toLowerCase()==='no'||r3.toLowerCase()==='n')
 {
     alert('you are do not same me');
 }else{
@@ -55,7 +55,7 @@ console.log(r4);
 if(r4.toLowerCase()==='yes'||r4.toLowerCase()=='y'){
     alert("You'r same me");
     yourGrad++;
-}else if(r4.toLowerCase()==='no'||r4.toLowerCase()==='y')
+}else if(r4.toLowerCase()==='no'||r4.toLowerCase()==='n')
 {
   alert('you are do not same me');
 }else{
@@ -67,65 +67,69 @@ let userNam =prompt ('Please enter your name?');
 alert(userNam +' welcom to my website');
 
 
-for(let i=0;i<4;i++){
+// for(let i=0;i<4;i++){
     
-let userGues6 =prompt('what is my age?');
+// let userGues6 =prompt('what is my age?');
 
- if(parseInt(userGues6) ===30){
-    alert('succeed');
-    yourGrad++
-    break;
-}else if(parseInt(userGues6)>30){
-    alert('too high')
-}
-else if(parseInt(userGues6)<30){
-    alert('too low')  
-}
+//  if(parseInt(userGues6) ===30){
+//     alert('succeed');
+//     yourGrad++
+//     break;
+// }else if(parseInt(userGues6)>30){
+//     alert('too high')
+// }
+// else if(parseInt(userGues6)<30){
+//     alert('too low')  
+// }
 
-alert('you will get another try');
-}
+// else if(i===3){
+//     alert(i);
+// }
+// alert('you will get another try');
+// }
 
-let arr =['red' ,'black','pink','green'];
+// let arr =['red' ,'black','pink','green'];
 
 
-let x=yourGrad+1;
-let y=x;
-// alert(x);
-for(let i=0;i<6;i++){
-    //alert(i);
-let userGues7 =prompt('what is my favorite color?');
+// let x=yourGrad+1;
+// let y=x;
+// // alert(x);
+// for(let i=0;i<6;i++){
+//     //alert(i);
+// let userGues7 =prompt('what is my favorite color?');
 
-switch(userGues7.toString()){
+// switch(userGues7.toString()){
     
-    case 'red' :
-                alert('win');
-                yourGrad++
-                break;
-    case 'black':
-               alert('win');
-               yourGrad++
-               break;
-    case 'pink':
-                alert('win');
-                yourGrad++
-                break;
-    case 'green':
-                alert('win');
-                yourGrad++
-                break;
-                default:
-                    alert ('incorrect answer');
-  }
-      if(y === yourGrad){
-          break;
-      }
-}
-for(let i=0;i<4;i++){
+//     case 'red' :
+//                 alert('win');
+//                 yourGrad++
+//                 break;
+//     case 'black':
+//                alert('win');
+//                yourGrad++
+//                break;
+//     case 'pink':
+//                 alert('win');
+//                 yourGrad++
+//                 break;
+//     case 'green':
+//                 alert('win');
+//                 yourGrad++
+//                 break;
+//                 default:
+//                     alert ('incorrect answer');
+//   }
+//       if(y === yourGrad){
+//           break;
+//       }
+// }
+// alert('this is my favorite colors :  '+arr);
+// for(let i=0;i<4;i++){
 
-    alert('this is my answer :  '+arr[i]);
-}
+//     alert('this is my answer :  '+arr[i]);
+// }
 
-alert('you are grad is  :'+yourGrad );
+// alert('you are grad is  :'+yourGrad );
 
 
 
