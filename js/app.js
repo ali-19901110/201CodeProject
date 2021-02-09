@@ -1,6 +1,6 @@
 'use strict';
 // alert('hellllllllllo');
- let yourGrad =0;
+let yourGrad =0; 
 let r0 =prompt ('Do i prefer coffee black?');
 console.log(r0);
 if(r0.toLowerCase()==='yes'||r0.toLowerCase()=='y'){
@@ -67,69 +67,68 @@ let userNam =prompt ('Please enter your name?');
 alert(userNam +' welcom to my website');
 
 
-// for(let i=0;i<4;i++){
+for(let i=0;i<4;i++){
+
     
-// let userGues6 =prompt('what is my age?');
+let userGues6 =prompt('what is my age?');
 
-//  if(parseInt(userGues6) ===30){
-//     alert('succeed');
-//     yourGrad++
-//     break;
-// }else if(parseInt(userGues6)>30){
-//     alert('too high')
-// }
-// else if(parseInt(userGues6)<30){
-//     alert('too low')  
-// }
+ if(parseInt(userGues6) ===30){
+    alert('succeed');
+    yourGrad++
+    break;
+}else if(parseInt(userGues6)>30){
+    alert('too high')
+}
+else if(parseInt(userGues6)<30){
+    alert('too low')  
+}
 
-// else if(i===3){
-//     alert(i);
-// }
-// alert('you will get another try');
-// }
+if(i===3){
+    alert('my age is 30 years old');
+    break;
+}
+alert('you will get another try');
 
-// let arr =['red' ,'black','pink','green'];
+}
+
+let arr =['red' ,'black','pink','green'];
 
 
-// let x=yourGrad+1;
-// let y=x;
-// // alert(x);
-// for(let i=0;i<6;i++){
-//     //alert(i);
-// let userGues7 =prompt('what is my favorite color?');
+let x=yourGrad+1;
+let y=x;
+// alert(x);
+for(let i=0;i<6;i++){
+    //alert(i);
+let userGues7 =prompt('what is my favorite color?');
 
-// switch(userGues7.toString()){
+switch(userGues7.toString()){
     
-//     case 'red' :
-//                 alert('win');
-//                 yourGrad++
-//                 break;
-//     case 'black':
-//                alert('win');
-//                yourGrad++
-//                break;
-//     case 'pink':
-//                 alert('win');
-//                 yourGrad++
-//                 break;
-//     case 'green':
-//                 alert('win');
-//                 yourGrad++
-//                 break;
-//                 default:
-//                     alert ('incorrect answer');
-//   }
-//       if(y === yourGrad){
-//           break;
-//       }
-// }
-// alert('this is my favorite colors :  '+arr);
-// for(let i=0;i<4;i++){
+    case 'red' :
+                alert('win');
+                yourGrad++
+                break;
+    case 'black':
+               alert('win');
+               yourGrad++
+               break;
+    case 'pink':
+                alert('win');
+                yourGrad++
+                break;
+    case 'green':
+                alert('win');
+                yourGrad++
+                break;
+                default:
+                    alert ('incorrect answer');
+  }
+      if(y === yourGrad){
+          break;
+      }
+}
+alert('this is my favorite colors :  '+arr);
 
-//     alert('this is my answer :  '+arr[i]);
-// }
-
-// alert('you are grad is  :'+yourGrad );
+alert('you are grad is  :'+yourGrad );
 
 
 
