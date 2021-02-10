@@ -1,6 +1,7 @@
 'use strict';
 // alert('hellllllllllo');
 let yourGrad =0; 
+function qOne(){
 let r0 =prompt ('Do i prefer coffee black?');
 console.log(r0);
 if(r0.toLowerCase()==='yes'||r0.toLowerCase()=='y'){
@@ -12,8 +13,9 @@ if(r0.toLowerCase()==='yes'||r0.toLowerCase()=='y'){
 }else{
    
     alert('you should answer yes/no');
-}
- 
+}}
+qOne();
+function qTwo(){
  let r1=prompt ('Do you i prefer  color black?');
  console.log(r1);
 if(r1.toLowerCase()==='yes'||r1.toLowerCase()=='y'){
@@ -25,7 +27,9 @@ if(r1.toLowerCase()==='yes'||r1.toLowerCase()=='y'){
 }else{
     
     alert('you should answer yes/no');
-}
+}}
+qTwo();
+function qThree(){
  let r2 =prompt ('Do you prefer your  footbal?');
  console.log(r2);
 if(r2.toLowerCase()==='yes'||r2.toLowerCase()=='y'){
@@ -37,7 +41,9 @@ if(r2.toLowerCase()==='yes'||r2.toLowerCase()=='y'){
 }else{
    
     alert('you should answer yes/no');
-}
+}}
+qThree();
+function qFour(){
  let r3 =prompt ('Do i prefer  games?');
 console.log(r3);
 if(r3.toLowerCase()==='yes'||r3.toLowerCase()=='y'){
@@ -49,7 +55,9 @@ if(r3.toLowerCase()==='yes'||r3.toLowerCase()=='y'){
 }else{
    
     alert('you should answer yes/no');
-}
+}}
+qFour();
+function qFive(){
  let r4 =prompt ('Do i prefer  markitng?');
 console.log(r4);
 if(r4.toLowerCase()==='yes'||r4.toLowerCase()=='y'){
@@ -61,10 +69,12 @@ if(r4.toLowerCase()==='yes'||r4.toLowerCase()=='y'){
 }else{
    
     alert('you should answer yes/no');
-}
-
+}}
+qFive();
+function qSix(){
 let userNam =prompt ('Please enter your name?');
 alert(userNam +' welcom to my website');
+
 
 
 for(let i=0;i<4;i++){
@@ -89,8 +99,10 @@ if(i===3){
 }
 alert('you will get another try');
 
-}
+}}
+qSix();
 
+function qSeven(){
 let arr =['red' ,'black','pink','green'];
 
 
@@ -126,7 +138,8 @@ switch(userGues7.toString()){
           break;
       }
 }
-alert('this is my favorite colors :  '+arr);
+alert('this is my favorite colors :  '+arr);}
+qSeven();
 
 alert('you are grad is  :'+yourGrad );
 
