@@ -71,7 +71,7 @@ if(r4.toLowerCase()==='yes'||r4.toLowerCase()=='y'){
     alert('you should answer yes/no');
 }}
 qFive();
-
+function qSix(){
 let userNam =prompt ('Please enter your name?');
 alert(userNam +' welcom to my website');
 
@@ -99,8 +99,8 @@ if(i===3){
 }
 alert('you will get another try');
 
-}
-
+}}
+qSix();
 
 let arr =['red' ,'black','pink','green'];
 
