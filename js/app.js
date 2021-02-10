@@ -102,6 +102,7 @@ alert('you will get another try');
 }}
 qSix();
 
+function qSeven(){
 let arr =['red' ,'black','pink','green'];
 
 
@@ -137,7 +138,8 @@ switch(userGues7.toString()){
           break;
       }
 }
-alert('this is my favorite colors :  '+arr);
+alert('this is my favorite colors :  '+arr);}
+qSeven();
 
 alert('you are grad is  :'+yourGrad );
 
