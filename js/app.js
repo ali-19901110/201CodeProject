@@ -15,7 +15,7 @@ if(r0.toLowerCase()==='yes'||r0.toLowerCase()=='y'){
     alert('you should answer yes/no');
 }}
 qOne();
-
+function qTwo(){
  let r1=prompt ('Do you i prefer  color black?');
  console.log(r1);
 if(r1.toLowerCase()==='yes'||r1.toLowerCase()=='y'){
@@ -27,7 +27,8 @@ if(r1.toLowerCase()==='yes'||r1.toLowerCase()=='y'){
 }else{
     
     alert('you should answer yes/no');
-}
+}}
+qTwo();
 
  let r2 =prompt ('Do you prefer your  footbal?');
  console.log(r2);
