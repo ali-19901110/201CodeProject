@@ -29,7 +29,7 @@ if(r1.toLowerCase()==='yes'||r1.toLowerCase()=='y'){
     alert('you should answer yes/no');
 }}
 qTwo();
-
+function qThree(){
  let r2 =prompt ('Do you prefer your  footbal?');
  console.log(r2);
 if(r2.toLowerCase()==='yes'||r2.toLowerCase()=='y'){
@@ -41,7 +41,8 @@ if(r2.toLowerCase()==='yes'||r2.toLowerCase()=='y'){
 }else{
    
     alert('you should answer yes/no');
-}
+}}
+qThree();
 
  let r3 =prompt ('Do i prefer  games?');
 console.log(r3);
