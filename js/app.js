@@ -57,7 +57,7 @@ if(r3.toLowerCase()==='yes'||r3.toLowerCase()=='y'){
     alert('you should answer yes/no');
 }}
 qFour();
-
+function qFive(){
  let r4 =prompt ('Do i prefer  markitng?');
 console.log(r4);
 if(r4.toLowerCase()==='yes'||r4.toLowerCase()=='y'){
@@ -69,8 +69,8 @@ if(r4.toLowerCase()==='yes'||r4.toLowerCase()=='y'){
 }else{
    
     alert('you should answer yes/no');
-}
-
+}}
+qFive();
 
 let userNam =prompt ('Please enter your name?');
 alert(userNam +' welcom to my website');
