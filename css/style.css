@@ -5,7 +5,7 @@ body{
     text-align: center;
     padding:5%;
     text-shadow: chartreuse;
-    font-size: 100px;
+    font-size: 30px;
 }
 #num2{
     text-align: center;
@@ -17,6 +17,33 @@ text-align: center;
 }
 #num3{
     color: darkgoldenrod;
-    font-size: 50px;
+    font-size: 20px;
    
+}
+#pic1{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 50px;
+    border-radius: 50%;
+}
+.d1{
+    /* width: 400px;
+    height: 400px; */
+    display: inline-block;
+    /* background-color:red; */
+}
+.link1{
+    color:sienna;
+    text-decoration: none;
+    padding:150px;
+}
+footer{
+    position: fixed; 
+            padding: 10px 10px 0px 10px; 
+            bottom: 0; 
+            width: 100%; 
+            /* Height of the footer*/  
+            height: 40px; 
+            background: grey; 
 }
