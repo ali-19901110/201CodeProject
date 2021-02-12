@@ -1,5 +1,5 @@
 'use strict';
-// alert('hellllllllllo');
+
 let yourGrad =0; 
 function qOne(){
 let r0 =prompt ('Do i prefer coffee black?');
@@ -104,104 +104,24 @@ qSix();
 
 function qSeven(){
 let arr =['red' ,'black','pink','green'];
-
-
-let x=yourGrad+1;
-let y=x;
-// alert(x);
+let flag =1;
 for(let i=0;i<6;i++){
-    //alert(i);
 let userGues7 =prompt('what is my favorite color?');
-
-switch(userGues7.toString()){
-    
-    case 'red' :
-                alert('win');
-                yourGrad++
-                break;
-    case 'black':
-               alert('win');
-               yourGrad++
-               break;
-    case 'pink':
-                alert('win');
-                yourGrad++
-                break;
-    case 'green':
-                alert('win');
-                yourGrad++
-                break;
-                default:
-                    alert ('incorrect answer');
-  }
-      if(y === yourGrad){
-          break;
-      }
-}
+for(let j=0;j<arr.length;j++){
+    if(userGues7.toString()===arr[j]){
+    alert('pass');
+    yourGrad++;
+    flag=2
+    break;
+}else{
+    alert('try again');
+    break;
+    }
+} 
+if(flag === 2){
+    break;
+}}
 alert('this is my favorite colors :  '+arr);}
 qSeven();
 
 alert('you are grad is  :'+yourGrad );
-
-
-
-
-
-// console.log(userInter1);
-// console.log(userInter2);
-// console.log(userInter3);
-// console.log(userInter4);
-// alert(userInter0);
-// if(userInter0==='yes')
-// {alert(userInter0);
-//     let userInter5 =prompt ('Please enter your name?');
-// }
-// alert(userInter0.toUpperCase());
-
-
-// if((userInter0.toLowerCase() ==='yes')||(userInter0.toUpperCase() ==='yes') && (userInter1.toLowerCase() ==='yes')||(userInter1.toUpperCase() ==='yes')
-// &&(userInter2.toLowerCase() ==='yes')||(userInter2.toUpperCase() ==='yes')
-// &&(userInter3.toLowerCase() ==='yes')||(userInter3.toUpperCase() ==='yes')
-// &&(userInter4.toLowerCase() ==='yes')||(userInter4.toUpperCase() ==='yes'))
-     
-//      {
-//         let userInter5 =prompt ('Please enter your name?');
-//          alert(userInter5 + "welcom to my website ");
-//      }
-
-
-// let answer = prompt('do you think i like lodon');
-// switch(answer.toLocaleLowerCase()){
-//     case 'yes':
-//     case 'y'  :
-//         alert('hats incorrect');
-//         break;
-//     case 'no' :
-//     case  'n' :
-//         alert('thats correct');
-//         break;
-//         case 'idk':
-//       alert('ali');   
-//       break;
-//       default:
-//           alert('italy') ; 
-// }
-
-
-
-
-
-
-// let arr =[1,2,3,4,5,6,7,8,9,10];
-// //alert(arr.length);
-// // arr.push
-// for(var i=0;i<=arr.length;i++)
-// {
-//     // console.log(arr[i]);
-//     for(let j=1;j<=arr.length;j++){
-//        let x= (arr[i])*j;
-//        document.write(x+'&nbsp&nbsp');
-
-//  }
-//     document.write('<br>'+'<br>');
-// }
