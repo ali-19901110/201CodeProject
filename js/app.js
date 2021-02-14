@@ -113,10 +113,7 @@ for(let j=0;j<arr.length;j++){
     yourGrad++;
     flag=2
     break;
-}else{
-    alert('try again');
-    break;
-    }
+}
 } 
 if(flag === 2){
     break;
